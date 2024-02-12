@@ -32,8 +32,12 @@ nav
           background-color: transparent
           border: none
           box-shadow: none
-          img
+          svg
                height: 24px
+               opacity: 0.7
+               transition: opacity 0.25s
+               &:hover, &:active
+                    opacity: 1
 
      .links-container
           display: flex
@@ -60,6 +64,8 @@ nav
           .link-drawer-handle
                visibility: visible
                display: block
+               svg
+                    stroke: #000
           .links 
                position: absolute
                top: calc(24px + 2em)
@@ -79,6 +85,10 @@ nav
                     flex-direction: column
                     align-items: flex-start
                     font-size: 25px
+                    a
+                         color: rgba(0, 0, 0, 0.7) !important
+                         &:hover, &:active
+                              color: #000 !important
           .rotated
                transform: rotate(90deg)
 
@@ -86,7 +96,7 @@ nav
                max-height: calc(100vh - 24px - 2em - 4em - 1em)
                height: auto
                padding: 2em 2em
-               box-shadow: 0 4px 10px #000
+               box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
                border: 1px solid $gray76
           
      .link-drawer-open
@@ -100,9 +110,11 @@ nav
 
           .header-title
                color: white !important
-
+          .link-drawer-handle
+               svg
+                    stroke: #fff !important
           .links-container
                a
-                    color: rgba(255, 255, 255, 0.7) !important
+                    color: rgba(255, 255, 255, 0.7)
                     &:hover, &:active
-                         color: #fff !important
+                         color: #fff
