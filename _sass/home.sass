@@ -1,0 +1,45 @@
+@import 'colors'
+
+
+.hero-wrapper
+     min-height: calc(100vh - 100px)
+     width: 100vw
+     .hero-background
+          margin-top: -100px
+          background-image: url('/_media/brand-assets/banners/Banner-blank@2x.png')
+          height: 100vh
+          width: 100%
+          background-position: center
+          background-size: cover
+          position: absolute
+          z-index: -1
+     .hero-content
+          width: 100%
+          min-height: calc(100vh - 100px)
+          z-index: 1
+          color: white
+          display: flex
+          justify-content: center
+          align-items: center
+          .hero-content-lockup
+               margin: auto
+               max-width: 1000px
+               padding: 50px
+               .hero-title
+                    font-weight: 100
+                    font-size: 75px
+                    letter-spacing: -1.25px
+               .hero-paragraph
+                    font-weight: bold
+                    margin-top: 16px
+     
+@media (max-width: 720px)
+     .hero-wrapper
+          min-height: calc(100vh - 55px)
+          .hero-background
+               margin-top: -55px
+               background-image: url('/_media/brand-assets/banners/Banner-blank@2x.png')
+               height: 100vh
+          .hero-content-lockup
+               min-width: 1px !important
+               padding: 50px

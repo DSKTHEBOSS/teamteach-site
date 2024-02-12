@@ -2,14 +2,35 @@
 <html lang="en-us">
 	{% include head.html %}
 
-	<body>
+	<body class="home-body">
 		{% include navigation.html %}
 		
-		<main>
+		<main class="home-main">
 
+			<div class="hero-wrapper">
+				<div class="hero-background" id="hero-background"></div>
+				<div class="hero-content" id="hero-content">
+
+					<div class="hero-content-lockup">
+						<div class="hero-title">Teaching for change.</div>
+						<div class="hero-paragraph">{{site.description}}</div>
+					</div>
+
+				</div>
+			</div>
+
+			<script>
+				document.onload = function () {
+					document.getElementById("hero-background").style.height = `${document.getElementById("hero-content").offsetHeight + document.getElementById("nav").offsetHeight}px`
+				}
+				window.onresize = function () {
+					document.getElementById("hero-background").style.height = `${document.getElementById("hero-content").offsetHeight + document.getElementById("nav").offsetHeight}px`
+				}
+			</script>
 
 			<div class="home-content">
 				
+
 
 
 				{{content}}
