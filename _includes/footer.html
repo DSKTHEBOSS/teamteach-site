@@ -1,0 +1,41 @@
+<footer>
+
+     <div class="footer-content">
+          <div class="column-1">
+               <div class="footer-heading">
+                    <img src="/_media/brand-assets/logos/Logo@2x.png" alt="TeamTeach Logo">
+               </div>
+               <div class="separator"></div>
+               <a href="mailto:{{ site.email }}" class="underline-on-hover">{{ site.email }}</a>
+          </div>
+
+          <div class="column-2">
+               <a href="https://www.twitter.com/{{ site.twitter_username }}" target="_blank">
+                    <svg class="svg-icon"><use xlink:href="/_media/social-icons/compiled.svg#twitter"></use></svg>
+                    <span class="username underline-on-hover">{{ site.twitter_username }}</span>
+               </a>
+          </div>
+
+          <div class="column-3">
+               {{ site.description | escape }}
+          </div>
+     </div>
+
+
+     <div class="endnotes">
+          Copyright {{site.time | date: '%Y'}} TeamTeach. All Rights Reserved.
+     </div>
+
+</footer>
+
+
+<!--
+
+     Hello!
+     -- sumukh (github.com/sumukhprasad)
+
+     Acknowledgements
+     
+     PicNic by Mariel Nils. Distributed by velvetyne.fr.
+
+-->
