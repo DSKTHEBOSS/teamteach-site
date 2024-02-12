@@ -1,0 +1,84 @@
+@import 'colors'
+     
+.staff-image
+     width: 100vw
+     max-width: 300px
+     aspect-ratio: 3/4
+     background-image: linear-gradient($gray95, $gray85)
+     overflow: hidden
+     img
+          object-fit: cover
+          height: 100%
+          width: 100%
+
+.staff-list
+     gap: 2em
+     display: flex
+     flex-wrap: wrap
+     
+     .item
+          width: 300px
+          .staff-link
+               text-decoration: none
+               color: $link-color
+          .staff-name-section
+               padding: 0.5em
+               .staff-name
+                    font-size: 1.5em
+                    margin: 0
+                    font-weight: bold
+               .staff-position
+                    color: $black-25
+          .staff-image
+               width: 100%
+               aspect-ratio: 4/3
+               background-image: linear-gradient($gray95, $gray85)
+               border-radius: 16px
+               overflow: hidden
+               img
+                    object-fit: cover
+                    height: 100%
+                    width: 100%
+          &:hover
+               .staff-name
+                    text-decoration: underline
+
+
+.member-top-container
+     width: 100vw
+     min-height: 336px
+     background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#fafafa))
+     background: -webkit-linear-gradient(top, #eaeaea 0%, #fafafa 100%)
+     background: linear-gradient(to bottom, #eaeaea 0%, #fafafa 100%)
+     .photo-and-name
+          display: flex
+          flex-direction: row
+          justify-content: space-between
+          max-width: 900px
+          margin-left: auto
+          margin-right: auto
+          align-items: end
+          height: 336px
+          h1
+               font-size: 60px
+               font-weight: 100
+               margin: 0
+               letter-spacing: -1.25px
+          h2
+               font-size: 20px
+               font-weight: bold
+               color: $black-25
+          img
+               max-height: 300px
+
+
+@media (max-width: 750px)
+     .member-top-container
+          .photo-and-name
+               display: flex
+               flex-direction: column
+               justify-content: space-between
+               margin-left: auto
+               margin-right: auto
+               height: auto !important
+               align-items: center

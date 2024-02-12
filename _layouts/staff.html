@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <div class="member-top-container">
+      <div class="photo-and-name">
+        <div>
+          <h1>{{ page.display_name }}</h1>
+          <h2>{{ page.position }}</h2>
+        </div>
+  
+        {% if page.image %} <img src="{{page.image}}">
+        {% endif %}
+      </div>
+    </div>
+
+    <main class="default-main">
+      {{ content }}
+    </main>
+
+		{% include footer.html %}
+		{% include envsash.html %}
+
+  </body>
+</html>
