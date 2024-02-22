@@ -40,6 +40,48 @@
                     &:hover, &:active
                          opacity: 1
      
+.box-container
+     display: flex
+     width: 100%
+     margin: auto
+     max-width: 900px
+     height: 100vh
+     max-height: 100vh
+     flex-direction: row
+     align-items: center
+     border-bottom: 1px solid $gray85
+     padding: 10px
+     .box
+          width: 100%
+          padding: 10px
+          overflow: hidden
+          h1
+               font-size: 40px
+          .content
+               font-size: 18px
+               line-height: 1.52947
+               color: $black-75
+               a:hover, a:active
+                    text-decoration: underline
+     .bg-image
+          background-image: url('/_media/brand-assets/banners/Banner-blank@2x.png')
+          background-position: center
+          background-size: cover
+          height: 70vh
+
+.contact-cta-container
+     margin: auto
+     max-width: 900px
+     text-align: center
+     padding: 30px
+     padding-bottom: 60px
+     font-size: 18px
+     line-height: 1.52947
+     color: $black-75
+     a:hover, a:active
+          text-decoration: underline
+
+
 @media (max-width: 720px)
      .hero-wrapper
           min-height: calc(100vh - 55px)
@@ -50,3 +92,5 @@
           .hero-content-lockup
                min-width: 1px !important
                padding: 50px
+     .box-container
+          flex-direction: column !important

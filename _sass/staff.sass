@@ -32,7 +32,9 @@
           .staff-image
                width: 100%
                aspect-ratio: 4/3
-               background-image: linear-gradient($gray95, $gray85)
+               background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#fafafa))
+               background: -webkit-linear-gradient(top, #eaeaea 0%, #fafafa 100%)
+               background: linear-gradient(to bottom, #eaeaea 0%, #fafafa 100%)
                border-radius: 16px
                overflow: hidden
                img
@@ -65,12 +67,30 @@
                margin: 0
                letter-spacing: -1.25px
           h2
-               font-size: 20px
+               font-size: 24px
                font-weight: bold
                color: $black-25
+               margin: 0
+               margin-bottom: 24px
           img
                max-height: 300px
 
+.staff-main
+     padding: 2em
+     display: flex
+     flex-direction: row
+     align-items: baseline
+     max-width: 900px
+     margin: auto
+     justify-content: space-between
+     div
+          max-width: 45%
+          font-size: 18px
+          line-height: 1.52947
+          font-weight: 300
+          color: $black-75
+          a:hover, a:active
+               text-decoration: underline
 
 @media (max-width: 750px)
      .member-top-container
@@ -82,3 +102,12 @@
                margin-right: auto
                height: auto !important
                align-items: center
+               padding: 36px
+               padding-bottom: 0
+               gap: 20px
+     
+     .staff-main
+          flex-direction: column
+          gap: 20px
+          div
+               max-width: 100%

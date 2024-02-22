@@ -7,7 +7,8 @@ permalink: /staff/
 <h1>Our Staff</h1>
 
 <div class="staff-list">
-  {% for member in site.staff %}
+  {% assign staff = site.staff | sort: 'order' %}
+  {% for member in staff %}
     <div class="item">
       <a class="staff-link" href="{{ site.baseurl }}{{ member.url }}">
         <div class="staff-image">
