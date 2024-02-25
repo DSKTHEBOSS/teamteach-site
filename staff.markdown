@@ -4,7 +4,7 @@ title: Staff
 permalink: /staff/
 ---
 
-<h1 class="staff-h1">Our Staff</h1>
+<h1 class="staff-h1">Our Team</h1>
 
 <div class="staff-list">
   {% assign staff = site.staff | sort: 'order' %}
