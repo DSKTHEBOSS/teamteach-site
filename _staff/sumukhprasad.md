@@ -2,12 +2,13 @@
 layout: staff
 name: sumukhprasad
 display_name: Sumukh Prasad
-position: Head of Education
+position: Co-founder
 order: 1
+image: /_media/sumukh.png
 ---
 
 <div>
-<p>Sumukh Prasad is one of TeamTeach's co-founders. Sumukh oversees curriculum development and his team is responsible for delivering quality education at the heart of TeamTeach's mission. Sumukh Prasad and <a href="/staff/dsaikarthik">D Sai Karthik</a> started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
+<p>Sumukh Prasad is one of TeamTeach's co-founders. <!--Sumukh oversees curriculum development and his team is responsible for delivering quality education at the heart of TeamTeach's mission.--> Sumukh Prasad and <a href="/staff/dsaikarthik">D Sai Karthik</a> started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
 
 <p>
 <b>Previous work</b><br>

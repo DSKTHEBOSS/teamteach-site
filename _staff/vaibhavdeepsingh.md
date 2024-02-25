@@ -2,12 +2,13 @@
 layout: staff
 name: vaibhav
 display_name: Vaibhav Deep Singh
-position: Teaching Assistant
+position: Member
 order: 4
+image: /_media/vaibhav.png
 ---
 
 <div>
-<p>Vaibhav Deep Singh is a Teaching Assistant at TeamTeach.</p>
+<p>Vaibhav Deep Singh is a Member at TeamTeach.</p>
 
 <p>
 <b>Previous work</b><br>
