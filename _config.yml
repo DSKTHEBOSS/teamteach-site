@@ -21,9 +21,7 @@
 title: TeamTeach
 email: teamteach24@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We're TeamTeach, a collective of high-school students based out of Bengaluru, India. We aim to teach students subjects that are not present in traditional curriculum, enabling them to see the world from a broader viewpoint.
 long_description: >-
   We're TeamTeach, a collective of high-school students based out of Bengaluru, India. We aim to teach students subjects that are not present in traditional curriculum, enabling them to see the world from a broader viewpoint. Our mission is to show students that education isn't limited to the two ends of their textbooks, empowering them to develop a deep curiosity about the world around them.
 baseurl: "" # the subpath of your site, e.g. /blog
