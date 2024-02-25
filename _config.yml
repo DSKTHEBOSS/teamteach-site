@@ -39,7 +39,7 @@ include:
   - _media
 
 collections:
-  staff:
+  team:
     output: true
     permalink: /:collection/:name
 

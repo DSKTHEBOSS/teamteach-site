@@ -8,7 +8,7 @@ image: /_media/karthik.png
 ---
 
 <div>
-<p>D Sai Karthik is one of TeamTeach's co-founders. D Sai Karthik and <a href="/staff/sumukhprasad">Sumukh Prasad</a> started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
+<p>D Sai Karthik is one of TeamTeach's co-founders. D Sai Karthik and <a href="/team/sumukhprasad">Sumukh Prasad</a> started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
 
 <p>
 <b>Previous work</b><br>

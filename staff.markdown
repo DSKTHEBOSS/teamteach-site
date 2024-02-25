@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Staff
-permalink: /staff/
+title: Team
+permalink: /team/
 ---
 
 <h1 class="staff-h1">Our Team</h1>
