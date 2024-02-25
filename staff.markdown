@@ -7,7 +7,7 @@ permalink: /team/
 <h1 class="staff-h1">Our Team</h1>
 
 <div class="staff-list">
-  {% assign staff = site.staff | sort: 'order' %}
+  {% assign team = site.team | sort: 'order' %}
   {% for member in team %}
     <div class="item">
       <a class="staff-link" href="{{ site.baseurl }}{{ member.url }}">
