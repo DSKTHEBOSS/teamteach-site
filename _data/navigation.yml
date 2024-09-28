@@ -1,3 +1,39 @@
 items:
   - name: Meet the Team
     link: /team
+
+  - name: Gallery
+    link: /gallery
+
+  - name: International
+    link: /international
+
+  - name: Recognition
+    link: /recognition
+    
+pdfs:
+  - name: "MOU with Bhekhimpilo Primary School.pdf"
+  - name: "MOU with Emthulasizwe High School.pdf"
+  - name: "MOU with Engweni Primary School.pdf"
+  - name: "MOU with FUKULA PRIMARY SCHOOL.pdf"
+  - name: "MOU with GUNJANENI PRIMARY SCHOOL.pdf"
+  - name: "MOU with HILL 70 PRIMARY SCHOOL.pdf"
+  - name: "MOU with Isolesizwe Secondary School.pdf"
+  - name: "MOU with Isulomndeni Primary School.pdf"
+  - name: "MOU with Jinga primary School.pdf"
+  - name: "MOU with KHULANGOLWAZI PRIMARY SCHOOL.pdf"
+  - name: "MOU with KHULUBONE PRIMARY SCHOOL.pdf"
+  - name: "MOU with Mehlokubheka Secondary School.pdf"
+  - name: "MOU with Mpukunyoni Primary School.pdf"
+  - name: "MOU with Mtubatuba High School.pdf"
+  - name: "MOU with Ndabeziphezulu High School.pdf"
+  - name: "MOU with Njojo primary School.pdf"
+  - name: "MOU with SIYAKHANYA PRIMARY SCHOOL.pdf"
+  - name: "MOU with Siphambano Primary School.pdf"
+  - name: "MOU with Siyelulama High School.pdf"
+  - name: "MOU with Sonkabi Primary School.pdf"
+  - name: "MOU with Ukuzamakwethu High School.pdf"
+  - name: "MOU with Umfolozi Primary School.pdf"
+  - name: "MOU with Vezobala Secondary School.pdf"
+  - name: "MoU WITH NKODIBE SECONDARY SCHOOL.pdf"
+  - name: "MoU with Somkhele Primary School.pdf"

@@ -29,6 +29,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _teamteach
 
 # Build settings
+
+mini_magick:
+  photoFolders:
+    source: photos/original
+    destination: photos/thumbnails
+    resize: "320x240^"
+    gravity: "center"
+    extent: "320x240"
+        
 plugins:
   - jekyll-feed
 
@@ -37,6 +46,7 @@ sass:
 
 include:
   - _media
+  - photos
 
 collections:
   team:
