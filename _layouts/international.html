@@ -10,23 +10,14 @@
     <main class="default-main">
       {{ content }}
 	 
-	 <table>
-	 	<thead>
-	 		<tr>
-	 			<th scope="col">School Name</th>
-	 			<th scope="col">MoU</th>
-	 		</tr>
-	 	</thead>
-	 	<tbody>
-	    	 {% assign pdfs = site.data.navigation.pdfs %}
-	    	   {% for pdf in pdfs %}
-		   <tr>
-	 			<td>{{ pdf.name | slice: 9, 500 | split: '.' | first }}</td>
-	 			<td><a href="/_media/mous/{{ pdf.name }}" target="_blank">PDF></a></td>
-	 		</tr>
-	    	   {% endfor %}
-	 	</tbody>
-	</table>
+
+    	 {% assign pdfs = site.data.navigation.pdfs %}
+    	   {% for pdf in pdfs %}
+	   <p>
+ 			<h2>{{ pdf.name | slice: 9, 500 | split: '.' | first }}</h2>
+ 			<p><a href="/_media/mous/{{ pdf.name }}" target="_blank">PDF></a></p>
+		</p>
+    	   {% endfor %}
     </main>
 
 
