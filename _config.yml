@@ -30,13 +30,13 @@ twitter_username: _teamteach
 
 # Build settings
 
-mini_magick:
-  photoFolders:
-    source: photos/original
-    destination: photos/thumbnails
-    resize: "320x240^"
-    gravity: "center"
-    extent: "320x240"
+# mini_magick:
+#   photoFolders:
+#     source: photos/original
+#     destination: photos/thumbnails
+#     resize: "320x240^"
+#     gravity: "center"
+#     extent: "320x240"
         
 plugins:
   - jekyll-feed
