@@ -1,16 +1,18 @@
-<div id="{{include.albumname}}">
+<h2 style="margin-top: 50px">{{include.albumname}}</h2>
 
+<div id="{{include.albumname | replace: ' ', '' | remove: '(' | remove: ')' | remove: '-' }}">
+	
     {%- for image in site.static_files -%}
         {%- if image.path contains 'photos/original' and image.path contains include.albumname -%}
             <a href="{{ image.path }}" data-sub-html="{% exiftag image_description, , {{ image.path }} %}" >
-                <img src="{{ image.path | replace: 'photos/original', 'photos/thumbnails'}}" />
+                <img src="{{ image.path }}" width="200" />
             </a>
         {%- endif -%}
     {%- endfor -%}
 
 </div>
 <script>
-	$('#{{include.albumname}}').lightGallery({
-	    thumbnail:true
+	
+	lightGallery(document.getElementById("{{include.albumname | replace: ' ', '' | remove: '(' | remove: ')' | remove: '-' }}"), {
 	});
 </script>
