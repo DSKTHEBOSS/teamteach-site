@@ -8,6 +8,9 @@ items:
   - name: Recognition
     link: /recognition
     
+  - name: Gallery
+    link: /gallery
+    
 pdfs:
   - name: "MOU with Bhekhimpilo Primary School.pdf"
   - name: "MOU with Emthulasizwe High School.pdf"
