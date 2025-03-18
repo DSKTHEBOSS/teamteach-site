@@ -23,3 +23,9 @@ permalink: /team/
     </div>
   {%- endfor -%}
 </div>
+
+---
+
+<h1 class="staff-h1">Past Members</h1>
+- Sumukh Prasad
+- Pratham Sri Vasisht
