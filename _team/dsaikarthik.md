@@ -8,11 +8,11 @@ image: /_media/karthik.png
 ---
 
 <div>
-<p>D Sai Karthik is one of TeamTeach's co-founders. D Sai Karthik and <a href="/team/sumukhprasad">Sumukh Prasad</a> started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
+<p>D Sai Karthik is TeamTeach's Founder. D Sai Karthik started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
 
 <p>
 <b>Previous work</b><br>
-Karthik started investing in the stock market and learning about companies at the age of 12. He is the co-founder of TeamTeach and has founded two other startups. He is also the author of a research paper and various other articles. He was also the second highest donor for the Global Cancer Foundation.
+Karthik is also the co-founder of Scribe. He has also published a research paper. He grew Teamteach from a team of 2 to a team of 10. He also navigated teamteach through the 100+ hours taught. He was also essential in the teaching of over 5000 students internationally. He was also the President of the Interact Club at DPS South for his district.
 </p>
 </div>
 
