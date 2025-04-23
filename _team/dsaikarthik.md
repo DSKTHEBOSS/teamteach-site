@@ -2,7 +2,7 @@
 layout: staff
 name: dsk
 display_name: D Sai Karthik
-position: Co-founder
+position: Founder
 order: 2
 image: /_media/karthik.png
 ---
