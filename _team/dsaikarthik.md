@@ -1,14 +1,14 @@
 ---
 layout: staff
 name: dsk
-display_name: D Sai Karthik
+display_name: Karthik Donthi
 position: Founder
 order: 2
 image: /_media/karthik.png
 ---
 
 <div>
-<p>D Sai Karthik is TeamTeach's Founder. D Sai Karthik started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
+<p>Karthik Donthi is TeamTeach's Founder. Karthik Donthi started TeamTeach in early 2024 to teach students real-world subjects not included in traditional curriculum.</p>
 
 <p>
 <b>Previous work</b><br>
@@ -18,5 +18,5 @@ Karthik is also the co-founder of Scribe. He has also published a research paper
 
 
 <div>
-D Sai Karthik is a high school senior at <a href="https://south.dpsbangalore.edu.in" target="_blank">DPS Bangalore South</a> and will graduate in 2025.
+Karthik Donthi is a high school senior at <a href="https://south.dpsbangalore.edu.in" target="_blank">DPS Bangalore South</a> and will graduate in 2025.
 </div>
